@@ -1,8 +1,7 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
-
 body {
   background-color: green;
 }
+
 .card-body {
   width: 18rem;
   height: 28rem;
@@ -17,25 +16,30 @@ body {
   border-radius: 20px;
   box-shadow: 0 0 20px #4f9;
 }
+
 .top-suit {
   width: 100%;
   text-align: left;
   font-size: 5rem;
 }
+
 .card-number {
   width: 100%;
   text-align: center;
   font-size: 5rem;
 }
+
 .bottom-suit {
   width: 100%;
   transform: rotate(180deg);
   font-size: 5rem;
 }
+
 .red .top-suit,
 .red .bottom-suit {
   color: red;
 }
+
 .button {
   display: flex;
   margin: 0 auto;
